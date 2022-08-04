@@ -14,18 +14,17 @@
 
   */
 
-int main(char *argv[])
-
+int main(int ac, char **av)
 
 
 {
-	int c = 0;
 	int i, k = 0;
 
-	while (*argv[k] != '\0')
-		c++;
-	for (i = 0; i < c; i++)
-		printf("%s\n", argv[i]);
+	while (av[k])
+		k++;
+
+	for (i = 0; i < k; i++)
+		printf("%s\n", av[i]);
 
 	return (0);
 

@@ -18,7 +18,7 @@ int main(void)
 
 {
 
-    char *argv[] = {"/shell-scripting/ls", "-l", "/home/", NULL};
+    char *argv[] = {"/bin/ls", "-l", "/usr/", NULL};
 
 
 

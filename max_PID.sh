@@ -1,2 +1,2 @@
-#!/bin/sh
-echo "32768"
+#!/bin/bash
+cat /proc/sys/kernel/pid_max
